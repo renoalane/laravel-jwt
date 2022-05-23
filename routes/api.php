@@ -31,3 +31,4 @@ Route::controller(TodoController::class)->group(function () {
     Route::put('todo/{id}', 'update');
     Route::delete('todo/{id}', 'destroy');
 });
+
